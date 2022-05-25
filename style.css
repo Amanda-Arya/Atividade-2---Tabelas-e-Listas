@@ -1,0 +1,52 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+}
+h1{
+     text-align: center;
+ }
+h2{
+    text-align: center;
+ }
+
+ .ordenada li{
+     list-style-type: lower-roman;
+     justify-content: center;
+ }
+.ordenada2 li{
+     list-style-type:circle;
+     justify-items: center;  
+ }
+ div{
+     display: grid;
+     justify-content: center;
+ }
+ table{
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    align-content: center;
+     
+ }
+ thead,tr,th, td{
+     border: 1px solid black;
+     text-align: center;
+     border-radius: 5px;
+    
+      
+ }
+ .semborda th, .rodape th{
+     border: none;
+     padding: 8px;
+     background-color: rgb(182, 231, 231);
+ }
+ .linha1 td, .linha3 td{
+     background-color: aquamarine;
+ }
+.linha2 td,.linha4 td{
+    background-color: rgb(189, 135, 240);
+}
+.linha5,th{
+    background-color: rgb(93, 189, 233);
+}
